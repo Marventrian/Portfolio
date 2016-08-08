@@ -1,0 +1,82 @@
+<!DOCTYPE html> 
+   <html>            
+        <head>
+          <title>LISBON - Literary and Illustrative Guide</title>
+        </head>
+
+        <body>
+        	
+       
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="css/main.css">
+		<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+		
+		<!-- Add jQuery library -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+		<!-- Add mousewheel plugin (this is optional) -->
+		<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+		<!-- Add fancyBox -->
+		<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+
+		<!-- Optionally add helpers - button, thumbnail and/or media -->
+		<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+
+		<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
+        	
+   <style>
+	
+	
+	   
+	 
+			
+ </style>    
+       
+       <div>	
+        <a class="fancybox" rel="group" href="imgbig/guia1.jpg" title="This is the title" data-caption="This is the caption">
+						<figure><img src="imgbig/guia1.jpg" alt="" class="thumbnail img-responsive"></figure>
+					</a>
+		<a class="fancybox" rel="group" href="imgbig/guia2.jpg" title="This is the title" data-caption="This is the caption">
+						<figure><img src="imgbig/guia2.jpg" alt="" class="thumbnail img-responsive"></figure>
+					</a>
+		<a class="fancybox" rel="group" href="imgbig/guia3.jpg" title="This is the title" data-caption="This is the caption">
+						<figure><img src="imgbig/guia3.jpg" alt="" class="thumbnail img-responsive"></figure>
+					</a>
+		<a class="fancybox" rel="group" href="imgbig/guia4.jpg" title="This is the title" data-caption="This is the caption">
+						<figure><img src="imgbig/guia4.jpg" alt="" class="thumbnail img-responsive"></figure>
+					</a>
+	    <a class="fancybox" rel="group" href="imgbig/guia5.jpg" title="This is the title" data-caption="This is the caption">
+						<figure><img src="imgbig/guia5.jpg" alt="" class="thumbnail img-responsive"></figure>
+					</a>
+		<a class="fancybox" rel="group" href="imgbig/guia6.jpg" title="This is the title" data-caption="This is the caption">
+						<figure><img src="imgbig/guia6.jpg" alt="" class="thumbnail img-responsive"></figure>
+					</a>
+		<a class="fancybox" rel="group" href="imgbig/guia7.jpg" title="This is the title" data-caption="This is the caption">
+						<figure><img src="imgbig/guia7.jpg" alt="" class="thumbnail img-responsive"></figure>
+					</a>
+					
+			</div>
+							
+	
+				
+     
+		
+    <script type="text/javascript">
+	$(document).ready( function() {
+		$(".fancybox").fancybox({
+  			beforeShow : function(){
+   			this.caption =  $(this.element).data("caption");
+  			
+			}
+ 		});	
+	});
+	// $(this.caption).insertBefore(".fancybox-title");
+</script>
+     
+        </body>            
+    </html>

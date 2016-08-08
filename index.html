@@ -13,8 +13,14 @@
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/circle.css">
 		<link rel="stylesheet" href="fonts/fontello/css/fontello.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,700,900|Lora:400,700" rel="stylesheet">
 		<style>
+			
+			h1 { font-family: 'Lato', sans-serif;}
+			h2 { font-family: 'Lato', sans-serif; font-weight: 900;}
+			h5 {font-family: 'Lora', serif; font-weight: 700;min-height:30px;}
 			body {
+			font-family: 'Lora', serif; 
 				padding-top: 50px;
 				padding-bottom: 20px;
 
@@ -25,14 +31,16 @@ padding: 0px;
 overflow-x: hidden;
 
 			}
+			
+			
 
 
 			.navbar-fixed-top {background: #000;color:#ddd;width: 100%;}
 			.navbar-fixed-top a {color:#fff;}
 			.navbar-fixed-top a:hover {color:#666;}
 			.navbar-fixed-top li:hover a {background:white;}
-			.jumbotron {background: black;}
-			.jumbotron {color: white;}
+			.jumbotron {background: #eee;}
+			.jumbotron {color: black;}
 			.specialties img {margin-bottom: 10px;}
 			.fundocinza {background: #eee; padding:40px 0;  }
 
@@ -72,6 +80,24 @@ overflow-x: hidden;
 		<link rel="stylesheet" href="css/bootstrap-theme.min.css">
 		<link rel="stylesheet" href="css/main.css">
 		<script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+		
+		<!-- Add jQuery library -->
+		<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+		<!-- Add mousewheel plugin (this is optional) -->
+		<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+		<!-- Add fancyBox -->
+		<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+
+		<!-- Optionally add helpers - button, thumbnail and/or media -->
+		<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-buttons.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-buttons.js"></script>
+		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-media.js"></script>
+
+		<link rel="stylesheet" href="fancybox/source/helpers/jquery.fancybox-thumbs.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="fancybox/source/helpers/jquery.fancybox-thumbs.js"></script>
 	</head>
 	<body>
 	<nav class="navbar navbar-fixed-top" role="navigation">
@@ -84,6 +110,8 @@ overflow-x: hidden;
 			<span class="icon-bar"></span>
 		  </button>
 		</div>
+		
+		
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#about">About</a></li>
@@ -254,7 +282,7 @@ I'm interested in learning about different areas and I try to independently acqu
 					<ul class="timeline">
 						<li>
 							<p class="date">2012-2015</p>
-							<p class="level">Master’s degree in Drawing</p>
+	 						<p class="level">Master’s degree in Drawing</p>
 							<p class="local">Faculdade de Belas-Artes da Universidade de Lisboa (FBAUL)</p>
 						</li>
 						<li>
@@ -294,8 +322,10 @@ I'm interested in learning about different areas and I try to independently acqu
 			
 			
 				<div class="col-sm-4">
+			  	
 				  	<figure><img src="img/mag.png" alt="" class="thumbnail img-responsive"></figure>
 				<div class="description">
+			  	
 				  	<h5>PORTUGAL 8 REASONS - Booklet </h5>
 				  		<p class="small text-muted"> This piece includes bilingual (traditional chinese / portuguese) information about reasons to invest in portugal.</p>
 				</div>	  
@@ -305,38 +335,43 @@ I'm interested in learning about different areas and I try to independently acqu
 				
 				<div  class="col-sm-4">
 					<figure><img src="img/cltriptico.png" alt="" class="thumbnail img-responsive"></figure>
-				<div class="description">
-				 	<h5> CENTRO DE LÍNGUA CHINESA - Three-fold</h5>
-				 		<p class="small text-muted"> Three-fold for a Chinese Language Center informing about courses and workshops.</p>
-				</div>
+					<div class="description">
+						<h5> CENTRO DE LÍNGUA CHINESA - Three-fold</h5>
+							<p class="small text-muted"> Three-fold for a Chinese Language Center informing about courses and workshops.</p>
+					</div>
 				</div>
 				
-		<!------------------>
-				
+	<!------------------>
+			
 				<div class="col-sm-4">
 					<figure><img src="img/visa.png" alt="" class="thumbnail img-responsive"></figure>
-			 	<div class="description">
-				  	<h5>GOLDEN VISA - Booklet Spread</h5>
-				  		<p class="small text-muted"> This piece includes bilingual (traditional chinese / portuguese) information for potential investors about Portugal and Golden Visa. </p>
-				</div>
+					<div class="description">
+						<h5>GOLDEN VISA - Booklet Spread</h5>
+							<p class="small text-muted"> This piece includes bilingual (traditional chinese / portuguese) information for potential investors about Portugal and Golden Visa. </p>
+					</div>
 				</div>
 				
 		<!------------------>
 				
 				<div class="col-sm-4">
-					<figure>
-						<img src="img/guia.png" alt="" class="thumbnail img-responsive">
+				
+					
+					<figure><a href="project1.html" target="_self">
+						<img src="imgbig/guia.png" alt="" class="thumbnail img-responsive">
 					</figure>
 				<div class="description">
 					<h5>LISBON - Literary and Illustrative Guide</h5>
 						<p class="small text-muted">Representation of my city, Lisbon (Portugal), in a simple guide that mixed the descriptions made by famous writers that lived in the city, and my own view.</p>
+						</a>
 				</div>
 				</div>
 			
 		<!------------------>
 			
 				<div class="col-sm-4">
-				 	<figure><img src="img/jazz.png" alt="" class="thumbnail img-responsive"></figure>
+					<a class="fancybox" rel="group" href="img/jazz.png" title="This is the title" data-caption="This is the caption">
+						<figure><img src="img/jazz.png" alt="XXXX" class="thumbnail img-responsive"></figure>
+					</a>
 				<div class="description">
 				 	<h5>COOL JAZZ FEST - Poster</h5>
 						<p class="small text-muted">Poster/event program and CD. This project is academic and so has no real application (Typography studies). </p>
@@ -413,7 +448,7 @@ I'm interested in learning about different areas and I try to independently acqu
          
     
 	  <br>
-	  <hr>
+	  <hr id="illustration">
 	  <br>
 	  <br>
        
@@ -425,8 +460,8 @@ I'm interested in learning about different areas and I try to independently acqu
 		  		<div class="col-sm-4">
 					<figure><img src="img/leo.png" alt="" class="thumbnail img-responsive"></figure>
 			 	<div class="description">
-				 	<h5> KID - Vectorial Illustration </h5>
-				 	<p class="small text-muted"></p>
+				 	<h5> Digital Illustration</h5>
+				 	<p class="small text-muted">Bitmap &amp; Vector Illustrations </p>
 						
 				</div>
 				</div>
@@ -436,10 +471,10 @@ I'm interested in learning about different areas and I try to independently acqu
 	  	
 	  	
 		  		<div class="col-sm-4">
-				  	<figure><img src="img/bee.png" alt="" class="thumbnail img-responsive"></figure>
+				  	<figure><img src="img/indie.png" alt="" class="thumbnail img-responsive"></figure>
 				<div class="description">
-				 	<h5> BEES - Vectorial Illustration </h5>
-				 	<p class="small text-muted"></p>
+				 	<h5> Traditional Illustration</h5>
+				 	<p class="small text-muted"> Graphite &amp; paint</p>
 						
 				</div>
 				</div>
@@ -447,47 +482,13 @@ I'm interested in learning about different areas and I try to independently acqu
 		
 		  		
 		  		<div class="col-sm-4">
-				  <figure><img src="img/shiu.png" alt="" class="thumbnail img-responsive"></figure>
+				  <figure><img src="img/girl.png"  alt="" class="thumbnail img-responsive"></figure>
 				<div class="description">
-				 	<h5> IMAGINATION - Vectorial Illustration </h5>
-				 	<p class="small text-muted"></p>
+				 	<h5>  Sketches </h5>
+				 	<p class="small text-muted">Free Drawing </p>
 						
 				</div>
 			 	</div>
-
-	   
-		   <!------------------>	
-		
-		      
-			   <div class="col-sm-4">
-
-				  <figure ><img src="img/indie.png" alt="" class="thumbnail img-responsive"></figure>
-				<div class="description">
-				 	<h5> Native - Drawing </h5>
-				 	<p class="small text-muted">Color Pencils and gouache</p>
-						
-				</div>
-				</div>
-				
-				
-			<!------------------>		
-				
-				
-		  <div class="col-sm-4">
-				  <figure><img src="img/woman.png" alt="" class="thumbnail img-responsive"></figure>
-		  
-		  <div class="description">
-				 	<h5> Girl - Drawing </h5>
-				 	<p class="small text-muted">Color Pencils and gouache</p>
-						
-		  </div>
-		  </div>
-		  
-		  
-		  
-		  <div class="col-sm-4">
-				  <figure><img src="img/girl.png" alt="" class="thumbnail img-responsive"></figure>
-			</div>
 			
 
 	  </div>
@@ -507,13 +508,22 @@ I'm interested in learning about different areas and I try to independently acqu
 				  <figure>
 					  <img src="img/foto1.png" alt="" class="thumbnail img-responsive">
 				  </figure>
-			  </a>
+				  	<h5>  Nature </h5>
+				 	<p class="small text-muted">Insects &amp; vegetation </p>
+			 
 			</div>
+			
+			
 		  <div class="col-sm-4">
 				  <figure><img src="img/foto2.png" alt="" class="thumbnail img-responsive"></figure>
+				  	<h5>  Brasil travel</h5>
+				 	<p class="small text-muted">Landscape &amp; animals</p>
 			</div>
+			
 		  <div class="col-sm-4">
 				  <figure><img src="img/foto3.png" alt="" class="thumbnail img-responsive"></figure>
+				  	<h5>  Bird Series </h5>
+				 	<p class="small text-muted"> Black and white </p>
 			</div>
 
 			   <div class="col-sm-4">
@@ -521,11 +531,19 @@ I'm interested in learning about different areas and I try to independently acqu
 				  <figure>
 					  <img src="img/foto4.png" alt="" class="thumbnail img-responsive">
 				  </figure>
+				  	<h5>  Sketches </h5>
+				 	<p class="small text-muted">Free Drawing </p>
 			  </a>
 			</div>
+			
+			
 		  <div class="col-sm-4">
 				  <figure><img src="img/foto5.png" alt="" class="thumbnail img-responsive"></figure>
+				  	<h5>  Lisbon  </h5>
+				 	<p class="small text-muted">Free Drawing </p>
 		</div>
+	  
+	  
 		  <div class="col-sm-4">
 				  <figure><img src="img/foto6.png" alt="" class="thumbnail img-responsive"></figure>
 			</div>
@@ -547,13 +565,25 @@ I'm interested in learning about different areas and I try to independently acqu
 	</div>
 </footer>
 
-
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+		
+	<!-- 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script> -->
 
 		<script src="js/vendor/bootstrap.min.js"></script>
 
 		<script src="js/main.js"></script>
+		
+		<script type="text/javascript">
+	$(document).ready( function() {
+		$(".fancybox").fancybox({
+  			beforeShow : function(){
+   			this.caption =  $(this.element).data("caption");
+  			
+			}
+ 		});	
+	});
+	// $(this.caption).insertBefore(".fancybox-title");
+</script>
 
 		<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
 		<script>
