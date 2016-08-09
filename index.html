@@ -17,9 +17,9 @@
 		<style>
 			
 			
-			h1 { font-family: 'Lato', sans-serif;}
-			h2 { font-family: 'Lato', sans-serif; font-weight: 900;}
-			h5 {font-family: 'Lora', serif; font-weight: 700;min-height:30px;}
+			h1 { font-family: 'Lato', sans-serif; margin-top: 50px;}
+			h2 { font-family: 'Lato', sans-serif; font-weight: 900; margin-bottom: 20PX;}
+			h5 {font-family: 'Lora', serif; font-weight: 700;min-height:30px; margin-bottom: 0;}
 			body {
 			font-family: 'Lora', serif; 
 				padding-top: 50px;
@@ -71,6 +71,9 @@ overflow-x: hidden;
 		   /* .tool:hover .icon-circle {color: red}  /* exemplo 2 */
 			.tool {margin: 5px 0px;}
 			.description {min-height: 100px}
+			
+			footer { height: 300px;margin-top: 100px;}
+			
            
 
 
@@ -117,6 +120,7 @@ overflow-x: hidden;
 			<ul class="nav navbar-nav navbar-right">
 				<li><a href="#about">About</a></li>
 				<li><a href="#graphic">Graphic Design</a></li>
+				<li><a href="#brand">Branding</a></li>
 				<li><a href="#illustration">Illustration</a></li>
 				<li><a href="#photo">Photography</a></li>
 				<li><a href="#contact">Contacts</a></li>
@@ -309,7 +313,7 @@ I'm interested in learning about different areas and I try to independently acqu
 				</ul>
 			</div>
 		</div>
-		<br><br><br><hr id="graphic"><br><br>
+		<br><br><br><hr><br><br>
 		
 		
 		
@@ -318,27 +322,30 @@ I'm interested in learning about different areas and I try to independently acqu
 
 <!------------------------------------------------------PORTFOLIO - GRAPHIC DESIGN---------------------------------------------------------------->
 
-		<h2 >Graphic Design</h2>
+		<h2  id="graphic">Graphic Design</h2>
 			<div class="row">
 			
 			
 				<div class="col-sm-4">
 			  	
-				  	<figure><img src="img/mag.png" alt="" class="thumbnail img-responsive"></figure>
+				  <a href="gd-8reasons.html" target="_self">	
+				  <figure><img src="img/mag.png" alt="" class="thumbnail img-responsive"></figure>
 				<div class="description">
 			  	
 				  	<h5>PORTUGAL 8 REASONS - Booklet </h5>
 				  		<p class="small text-muted"> This piece includes bilingual (traditional chinese / portuguese) information about reasons to invest in portugal.</p>
+					</a>
 				</div>	  
 				</div>
 				
 		<!------------------>
-				
+				 <a href="gd-triptic.html" target="_self">	
 				<div  class="col-sm-4">
 					<figure><img src="img/cltriptico.png" alt="" class="thumbnail img-responsive"></figure>
 					<div class="description">
 						<h5> CENTRO DE LÍNGUA CHINESA - Three-fold</h5>
 							<p class="small text-muted"> Three-fold for a Chinese Language Center informing about courses and workshops.</p>
+					</a>
 					</div>
 				</div>
 				
@@ -357,7 +364,7 @@ I'm interested in learning about different areas and I try to independently acqu
 				<div class="col-sm-4">
 				
 					
-					<figure><a href="gd-lisbon.html" target="_self">
+					<a href="gd-lisbon.html" target="_self"><figure>
 						<img src="img/guia.png" alt="" class="thumbnail img-responsive">
 					</figure>
 				<div class="description">
@@ -370,7 +377,8 @@ I'm interested in learning about different areas and I try to independently acqu
 		<!------------------>
 			
 				<div class="col-sm-4">
-					<a class="fancybox" rel="group" href="img/jazz.png" title="This is the title" data-caption="This is the caption">
+				
+					<a href="gd-jazz.html" target="_self">	
 						<figure><img src="img/jazz.png" alt="XXXX" class="thumbnail img-responsive"></figure>
 					</a>
 				<div class="description">
@@ -509,45 +517,55 @@ I'm interested in learning about different areas and I try to independently acqu
 				  <figure>
 					  <img src="img/foto1.png" alt="" class="thumbnail img-responsive">
 				  </figure>
+				  <div class="description">
 				  	<h5>  Nature </h5>
 				 	<p class="small text-muted">Insects &amp; vegetation </p>
-			 
+			  </div>
 			</div>
 			
 			
 		  <div class="col-sm-4">
 				  <figure><img src="img/foto2.png" alt="" class="thumbnail img-responsive"></figure>
+				  <div class="description">
 				  	<h5>  Brasil travel</h5>
 				 	<p class="small text-muted">Landscape &amp; animals</p>
 			</div>
+		</div>
 			
 		  <div class="col-sm-4">
 				  <figure><img src="img/foto3.png" alt="" class="thumbnail img-responsive"></figure>
+				  <div class="description">
 				  	<h5>  Bird Series </h5>
 				 	<p class="small text-muted"> Black and white </p>
 			</div>
+		</div>
 
 			   <div class="col-sm-4">
 
 				  <figure>
 					  <img src="img/foto4.png" alt="" class="thumbnail img-responsive">
 				  </figure>
+				  <div class="description">
 				  	<h5>  Sketches </h5>
 				 	<p class="small text-muted">Free Drawing </p>
 			  </a>
 			</div>
+		</div>
 			
 			
 		  <div class="col-sm-4">
 				  <figure><img src="img/foto5.png" alt="" class="thumbnail img-responsive"></figure>
+				  <div class="description">
 				  	<h5>  Lisbon  </h5>
 				 	<p class="small text-muted">Free Drawing </p>
 		</div>
-	  
+		</div>
 	  
 		  <div class="col-sm-4">
 				  <figure><img src="img/foto6.png" alt="" class="thumbnail img-responsive"></figure>
+				  <div class="description">
 			</div>
+		</div>
 
 
 </div>
@@ -559,10 +577,13 @@ I'm interested in learning about different areas and I try to independently acqu
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6">
+			<h2>Contacts</h2>
 				<i class="icon-mail text-left"></i> dg.marciamota@gmail.com | <i class="icon-phone"></i> 914988618
 			</div>
-			<div class="col-sm-6 text-right">&copy; 2016 Márcia Mota</div>
+			
 		</div>
+		<br>
+		<div class="col-sm-12 text-right">&copy; 2016 Márcia Mota </div>
 	</div>
 </footer>
 
